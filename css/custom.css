@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900');
+
+p{
+  font-family: 'Roboto', serif;
+  color: #000;
+}
+h1,h2,h3
+{
+	font-family: 'Roboto', serif;
+	color: #fff;
+}
+h1{
+	font-size: 	60px;
+  margin-top: 5%;
+}
+h2
+{
+	font-size: 35px;
+  margin-bottom: 3%;
+  margin-top: -23px;
+}
+h3{
+	font-size: 25px;
+  color: #000;
+}
+
+
+.bgGrey{
+	background: #d1d3d4;
+}
+
+.chevron {
+    margin-right: 15px;
+    background: url(../images/contenido/chevron_rojo.png) no-repeat top left;
+    display: inline-block;
+    height: 15px;
+    width: 26px;
+}
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+/*Fin General*/
+
+/*Header*/
+.bgHeader{
+  background: url(../images/contenido/banner.png) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.pvalor{
+  font-size: 50px;
+  font-weight: 900;
+  border-right: solid #EE3849 5px;
+  padding-right: 1%;
+}
+.lasalle{
+  font-size: 65px;
+  font-weight: 600;
+}
+
+header p{
+
+  color: #fff;
+}
+
+/*Fin header*/
+
+/*Contenido*/
+
+.nuestrasUniversidades p,.nuestrasUniversidades h2
+{
+  font-weight: bold;
+  color: #808080;
+
+}
+section.nuestrasUniversidades div.col-sm-6 div.row div.col-sm-4 p{
+  margin-top: 15%;
+  margin-bottom: 1px;
+}
+.nuestrasUniversidades p>span
+{
+  color: #a19f9f;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+hr.lineaRoja{
+  border-width: 5px;
+  width: 5%;
+  border-color: #EE3849;
+  margin: 0;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+h2.titulo{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+}
+p.contenidoNU{
+  font-weight: normal;
+  margin-top: -25px;
+}
+.nuestrasUniversidades{
+  margin-top: 4%;
+}
+.nuestrasUniversidades h2>span.mexico{
+  color: #0e124e;
+  font-size: 35px;
+  font-weight: 900;
+}
+p.nota{
+  font-size: 16px;
+  margin-top: 5%;
+  color: #808080;
+  font-weight: 900;
+}
+table.ofertaEducativa{
+  font-size: 11px;
+  border-collapse: initial; 
+}
+
+.ofertaEducativa tbody{
+  text-align: center;
+}
+table.ofertaEducativa tbody  td{
+  border-right: 1px solid #ddd;
+  vertical-align:middle;
+}
+tr:nth-of-type(5n) {background-color: #f2f2f2;}
+tbody td:nth-of-type(3n),
+thead th:nth-of-type(3n){
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover{
+  background:#BDC3C7;
+
+}
+
+table.fixed th{
+  background: #0e124e;
+  color: #fff;
+}
+.fixed{
+  top:0;
+  position:fixed;
+  width:auto;
+  display:none;
+  border:none;
+}
+.glyphicon{position: initial;}
+.glyphicon.glyphicon-home{
+  font-size: 14px;
+  
+}
+.nuestrasUniversidades a{
+  color: #80d4ff;
+}
+.nuestrasUniversidades a.fb{
+  color: #80d4ff;
+}
+.nuestrasUniversidades a:hover{
+  color: #0e124e;
+}
+.fa.fa-facebook-official{
+  font-size: 16px;
+}
+/*Fin Contenido*/
+/*Footer*/
+.bgBlack{
+  background: #000;
+  padding: 2% 0;
+}
+footer div ul {
+    list-style-image: url('../images/footer/icon_redArrow.png');
+}
+footer div ul li {
+  text-align: left;
+}
+
+.bgGray{
+	background: gray;
+	padding-top: 1%;
+}
+div.redesSociales figure
+{
+	display: inline-block;
+	padding: 2.2%;
+}
+div.redesSociales p
+{
+	color: #fff;
+	text-align: left;
+}
+span.textoValor{
+	font-size: 2em;
+	color: gray;
+}
+
+ul.listaEscuelas a
+{
+	color:#fff;
+	font-size: 0.8em;
+}
+
+figure.logos img{
+  margin: 0 auto;
+}
+
+div.elegir{
+  margin: 50px 0;
+}
+
+/*Fin Footer*/
+/*Media queries*/
+/*768 px max*/
+@media only screen 
+  and (max-width: 48em){
+    h1{
+      font-size: 40px;
+    }
+    .lasalle{
+      font-size: 55px;
+    }
+    h2{
+      font-size: 30px;
+    }
+    .pvalor {
+        font-size: 40px;
+    }
+    .bgBlack {
+        padding: 8% 0;
+    }
+    .fixed{
+      display: none !important;
+    }
+  }
