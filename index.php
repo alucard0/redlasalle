@@ -6,13 +6,24 @@ include 'header.php';
 */
 ?>
 <section class="container nuestrasUniversidades">
-	<div class="col-sm-12">
-	<h2 class="titulo">Nuestras universidades <br><span class="mexico">en México</span></h2>
-
+	<div class="row">
+		<div class="col-sm-6 col-xs-12">
+			<div class="row">
+				<h2 class="titulo">Nuestras universidades <br><span class="mexico">en México</span></h2><br>
+			</div>
+			<div class="row">
+				<p class="contenidoNU">contribuyen al desarrollo y transformación de nuestra sociedad. Cada una es autónoma y su oferta académica responde a las necesidades del contexto geográfico y social.</p>
+				<hr class="lineaRoja">
+			</div>
+		</div>
+		<div class="col-sm-6 col-xs-12"></div>
 	</div>
+
+	<!-- <div class="col-sm-12">
+		
+	</div> -->
 	<div class="col-sm-6">
-		<p class="contenidoNU">contribuyen al desarrollo y transformación de nuestra sociedad. Cada una es autónoma y su oferta académica responde a las necesidades del contexto geográfico y social.</p>
-		<hr class="lineaRoja">
+		
 		<div class="row">
 			<div class=" col-xs-4 col-sm-4">
 				<p>Centro de Estudios Superiores La Salle <br><span>Monterrey, Nuevo León</span></p>
@@ -117,7 +128,7 @@ include 'header.php';
 		<table class="table ofertaEducativa">
 		    <thead>
 		      <tr>
-		        <th>OFERTA EDUCATIVA LA SALLE <br><br><i>Los nombres mostrados en la matriz de oferta educativa son ilustrativos, pueden variar en cada institución de acuerdo a las características del plan de estudios.</i></th>
+		        <th>OFERTA EDUCATIVA LA SALLE <br><br><i>Los nombres mostrados en la matriz <br> de oferta educativa son ilustrativos, <br> pueden variar en cada institución de <br> acuerdo a las características del <br> plan de estudios.</i></th>
 		        <th>Bajío</th>
 		        <th>Benavente</th>
 		        <th>Cancún</th>
@@ -1476,7 +1487,7 @@ include 'header.php';
 		<table class="table ofertaEducativa">
 		    <thead>
 		      <tr>
-		        <th>OFERTA EDUCATIVA LA SALLE <br><br><i>Los nombres mostrados en la matriz de oferta educativa son ilustrativos, pueden variar en cada institución de acuerdo a las características del plan de estudios.</i></th>
+		        <th>OFERTA EDUCATIVA LA SALLE <br><br><i>Los nombres mostrados en la matriz <br> de oferta educativa son ilustrativos, <br> pueden variar en cada institución de <br> acuerdo a las características del <br> plan de estudios.</i></th>
 		        <th>Bajío</th>
 		        <th>Benavente</th>
 		        <th>Cancún</th>
@@ -3051,7 +3062,7 @@ include 'header.php';
 		<table class="table ofertaEducativa">
 		    <thead>
 		      <tr>
-		        <th>OFERTA EDUCATIVA LA SALLE <br><br><i>Los nombres mostrados en la matriz de oferta educativa son ilustrativos, pueden variar en cada institución de acuerdo a las características del plan de estudios.</i></th>
+		        <th>OFERTA EDUCATIVA LA SALLE <br><br><i>Los nombres mostrados en la matriz <br> de oferta educativa son ilustrativos, <br> pueden variar en cada institución de <br> acuerdo a las características del <br> plan de estudios.</i></th>
 		        <th>Bajío</th>
 		        <th>Benavente</th>
 		        <th>Cancún</th>
@@ -3168,7 +3179,7 @@ include 'header.php';
 		<table class="table ofertaEducativa">
 		    <thead>
 		      <tr>
-		        <th>OFERTA EDUCATIVA LA SALLE <br><br><i>Los nombres mostrados en la matriz de oferta educativa son ilustrativos, pueden variar en cada institución de acuerdo a las características del plan de estudios.</i></th>
+		        <th>OFERTA EDUCATIVA LA SALLE <br><br><i>Los nombres mostrados en la matriz <br> de oferta educativa son ilustrativos, <br> pueden variar en cada institución de <br> acuerdo a las características del <br> plan de estudios.</i></th>
 		        <th>Bajío</th>
 		        <th>Benavente</th>
 		        <th>Cancún</th>
@@ -3285,7 +3296,7 @@ include 'header.php';
 		<table class="table ofertaEducativa">
 		    <thead>
 		      <tr>
-		        <th>OFERTA EDUCATIVA LA SALLE <br><br><i>Los nombres mostrados en la matriz de oferta educativa son ilustrativos, pueden variar en cada institución de acuerdo a las características del plan de estudios.</i></th>
+		        <th>OFERTA EDUCATIVA LA SALLE <br><br><i>Los nombres mostrados en la matriz <br> de oferta educativa son ilustrativos, <br> pueden variar en cada institución de <br> acuerdo a las características del <br> plan de estudios.</i></th>
 		        <th>Bajío</th>
 		        <th>Benavente</th>
 		        <th>Cancún</th>
@@ -3366,7 +3377,7 @@ include 'header.php';
 		<table class="table ofertaEducativa">
 		    <thead>
 		      <tr>
-		        <th>OFERTA EDUCATIVA LA SALLE <br><br><i>Los nombres mostrados en la matriz de oferta educativa son ilustrativos, pueden variar en cada institución de acuerdo a las características del plan de estudios.</i></th>
+		        <th>OFERTA EDUCATIVA LA SALLE <br><br><i>Los nombres mostrados en la matriz <br> de oferta educativa son ilustrativos, <br> pueden variar en cada institución de <br> acuerdo a las características del <br> plan de estudios.</i></th>
 		        <th>Bajío</th>
 		        <th>Benavente</th>
 		        <th>Cancún</th>
