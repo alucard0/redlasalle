@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php 
 include 'header.php';
 /**
@@ -3510,3 +3511,23 @@ include 'header.php';
 </section>
 
 <?php include 'footer.php';?>
+<?php 
+	</div>
+	<div class="col-sm-6">
+		<figure>
+			<img src="images/contenido/mapa.png" alt="Mapa de red de universidades" class="img-responsive">
+		</figure>
+	</div>
+	<div class="col-sm-12">
+		<figure>
+				<img src="images/contenido/fotos.png" alt="Foto de las diferentes universidades de La Salle" class="img-responsive">
+			</figure>
+	</div>
+</section>
+
+<section class="container">	
+	<?php include 'controlador/ControladorOEdu.php'; ?>
+</section>
+
+<?php include 'footer.php';?>
+>>>>>>> AgregarBD
