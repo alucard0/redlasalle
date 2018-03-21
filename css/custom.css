@@ -37,6 +37,7 @@ h3{
     width: 26px;
 }
 .container-full {
+  /* margin: 0 auto; */
   margin: 0 auto;
   width: 100%;
 }
@@ -107,6 +108,8 @@ p.contenidoNU{
 }
 .nuestrasUniversidades{
   margin-top: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .nuestrasUniversidades h2>span.mexico{
   color: #0e124e;

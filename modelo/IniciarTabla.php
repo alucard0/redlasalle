@@ -18,7 +18,7 @@ class IniciarTabla{
 		echo "<table class='table ofertaEducativa'>\n";
 		echo "<thead>\n";
 		echo "<tr>\n";
-		echo "<th>OFERTA EDUCATIVA LA SALLE <br><br><i>Los nombres mostrados en la matriz de oferta educativa son ilustrativos, pueden variar en cada institución de acuerdo a las características del plan de estudios.</i></th>\n";
+		echo "<th>OFERTA EDUCATIVA LA SALLE <br><br><i>Los nombres mostrados en la matriz <br> de oferta educativa son ilustrativos, <br> pueden variar en cada institución de <br> acuerdo a las características del <br> plan de estudios.</i></th>\n";
  
 		$query = 'SELECT Nombre_Corto FROM plantel ORDER BY Nombre_Corto ASC';
 		$nombres = $bd->escribir($query);
