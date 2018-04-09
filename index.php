@@ -31,7 +31,7 @@ include 'header.php';
 	</div>
 </section>
 
-<section class="container">	
+<section class="container-fluid">	
 	<?php include 'controlador/ControladorOEdu.php'; ?>
 </section>
 

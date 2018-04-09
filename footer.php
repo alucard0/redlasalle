@@ -69,17 +69,26 @@
 		      return this.each(function() {
 		         var $this = $(this),
 		            $t_fixed;
+								
 		         function init() {
 		            
 		            $t_fixed = $this.clone();
 		            $t_fixed.find("tbody").remove().end().addClass("fixed").insertBefore($this);
+								$t_fixed.removeClass("table");
+								$t_fixed.addClass("table-responsive");
 
 		            resizeFixed();
 		         }
 		         function resizeFixed() {
+							 var total = 0;
 		            $t_fixed.find("th").each(function(index) {
-		               $(this).css("width",$this.find("th").eq(index).outerWidth()+"px");
-		            });
+									 $(this).css("width",$this.find("th").eq(index).outerWidth()+"px");
+									 $(this).css("padding", "8px");
+									//  console.log($this.find("th").eq(index).outerWidth());
+									total += $this.find("th").eq(index).outerWidth();
+									 
+								});
+								$t_fixed.css('width', total + 'px');
 		           
 		         }
 		         function scrollFixed() {
