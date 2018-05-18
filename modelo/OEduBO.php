@@ -22,11 +22,14 @@
 			while ($filaCarrera = mysqli_fetch_row($nombreCarrera)){
 				echo "<tr>\n";
 				echo '<td>'.$filaCarrera[1]."</td>\n";
-				$query = 'SELECT Plantel.PK_Plantel FROM Plantel, Plantel_O_Edu WHERE Plantel.PK_Plantel = Plantel_O_Edu.FK_Plantel AND Plantel_O_Edu.FK_O_Edu = '.$filaCarrera[0].' ORDER BY Plantel.Nombre_Corto ASC';
-				$carreras = $bd->escribir($query);
+
+				$query = 'SELECT plantel.PK_Plantel FROM plantel, plantel_o_edu WHERE plantel.PK_Plantel = plantel_o_edu.FK_Plantel AND plantel_o_edu.FK_O_Edu = '.$filaCarrera[0].' ORDER BY plantel.Nombre_Corto ASC';
+				$carreras = $bd->escribir($query);		
+
 				$filaCarreraPlantel = mysqli_fetch_row($carreras);
-							
+			
 				mysqli_data_seek ( $plantel , 0 );
+				
 				while ($filaPlantel = mysqli_fetch_row($plantel)) {
 					if ($filaCarreraPlantel){
 						if ($filaCarreraPlantel[0] == $filaPlantel[0]){
