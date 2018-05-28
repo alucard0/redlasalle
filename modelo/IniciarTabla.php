@@ -40,4 +40,3 @@ class IniciarTabla{
 		echo "</div>\n";
 	}
 }
-?>

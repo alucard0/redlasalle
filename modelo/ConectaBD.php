@@ -19,7 +19,7 @@
 			$this->host="127.0.0.1";
 			$this->username="root";
 			$this->password="";
-			$this->dbname="red_universidades";
+			$this->dbname="red";
 			$this->port="3306";
 		}
 		//Metodos
