@@ -49,7 +49,7 @@
     <!-- HEADER-->
     <header class="bgHeader"> 
 
-      <div class="container">
+      <div class="container" style="margin-bottom: 30px;">
 	    	<h1>Red de Universidades <br><span class="lasalle">La Salle</span></h1>
 	    	<h2>formamos Profesionales con <span class="pvalor">Valor</span></h2>
 	      	<div class="col-sm-4"><p>Somos una red de educación, investigación e innovación con más de 50 años de trayectoria formando Profesionales con Valor.</p></div>
@@ -59,5 +59,6 @@
       </div>
       
     </header>
+
 
     <!--  FIN HEADER -->

@@ -37,6 +37,7 @@ h3{
     width: 26px;
 }
 .container-full {
+  /* margin: 0 auto; */
   margin: 0 auto;
   width: 100%;
 }
@@ -69,6 +70,18 @@ header p{
 /*Fin header*/
 
 /*Contenido*/
+
+.table-responsive {
+  /* overflow-x: scroll; */
+  overflow: inherit!important;
+  font-size: 11px;
+  border-collapse: initial; 
+}
+
+.container-fluid {
+  /* overflow-x: scroll; */
+  overflow-x: scroll!important;
+}
 
 .nuestrasUniversidades p,.nuestrasUniversidades h2
 {
@@ -107,6 +120,8 @@ p.contenidoNU{
 }
 .nuestrasUniversidades{
   margin-top: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .nuestrasUniversidades h2>span.mexico{
   color: #0e124e;
@@ -131,6 +146,12 @@ table.ofertaEducativa tbody  td{
   border-right: 1px solid #ddd;
   vertical-align:middle;
 }
+
+th {
+  border-right: 1px solid #ddd;
+  vertical-align:bottom;
+}
+
 tr:nth-of-type(5n) {background-color: #f2f2f2;}
 tbody td:nth-of-type(3n),
 thead th:nth-of-type(3n){
@@ -143,14 +164,17 @@ tbody tr:hover{
 }
 
 table.fixed th{
+  /* display: inline-block; */
   background: #0e124e;
   color: #fff;
+  /* width: 100%; */
 }
 .fixed{
+  overflow: auto;
   top:0;
   position:fixed;
-  width:auto;
-  display:none;
+  width:100%;
+  /* display:inline-block; */
   border:none;
 }
 .glyphicon{position: initial;}
@@ -220,7 +244,7 @@ div.elegir{
 /*Media queries*/
 /*768 px max*/
 @media only screen 
-  and (max-width: 48em){
+  and (max-width: 1024px){
     h1{
       font-size: 40px;
     }
@@ -238,5 +262,7 @@ div.elegir{
     }
     .fixed{
       display: none !important;
+      /* display: inline; */
+      box-sizing: inherit;
     }
   }
