@@ -5,6 +5,7 @@ include 'header.php';
 *	Documento: Index del micrositio
 */
 ?>
+<!--Comentario-->
 <section class="container nuestrasUniversidades" style="margin-left: 5%; margin-right: 5%; margin-top: 5%;">
 <div class="row">
 		<div class="col-sm-6 col-xs-12">
