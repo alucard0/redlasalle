@@ -82,7 +82,6 @@
 		            $t_fixed.find("th").each(function(index) {
 									 $(this).css("width",$this.find("th").eq(index).outerWidth()+"px");
 									 $(this).css("padding", "8px");
-									//  console.log($this.find("th").eq(index).outerWidth());
 									total += $this.find("th").eq(index).outerWidth();
 									 
 								});
